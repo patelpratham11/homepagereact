@@ -23,13 +23,13 @@
 
 .Clock{
   top: 5%;
-  left: 8%;
+  left: 5%;
   position: absolute;
 }
 
 .Weather{
   position: absolute;
-  top: 5%;
+  top: 0%;
   right: 8%;
 }
 

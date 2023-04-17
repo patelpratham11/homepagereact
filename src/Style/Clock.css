@@ -7,6 +7,7 @@
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
+    /* width: fit-content; */
 }
 
 .clock-container{
@@ -18,6 +19,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    /* width: fit-content; */
 }
 
 .middle-circle{
@@ -63,7 +65,7 @@
     content: '';
     position: absolute;
     width: 8px;
-    height: 70px;
+    height: 10vh;
     background-color: red;
     z-index: 10;
     border-radius: 6px 6px 0 0;
@@ -73,13 +75,13 @@
     content: '';
     position: absolute;
     width: 6px;
-    height: 100px;
+    height: 13vh;
     background-color: white;
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
 
-/* .second-hand:before{
+.second-hand:before{
     content: '';
     position: absolute;
     width: 4px;
@@ -87,4 +89,16 @@
     background-color: lightblue;
     z-index: 12;
     border-radius: 6px 6px 0 0;
-} */
+}
+
+.hour-val{
+    height: 24vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.minute-val{
+    height: 28vh;
+    position: absolute;
+    bottom: 0;
+}

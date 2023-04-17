@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className='Clock'><Clock></Clock></div>
       <div className='Weather'><Weather></Weather></div>
-      
+      <div className='Name'></div>
     </div>
   );
 }
