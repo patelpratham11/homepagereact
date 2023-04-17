@@ -14,11 +14,12 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 5px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    background-color: #038c8c;
     /* width: fit-content; */
 }
 

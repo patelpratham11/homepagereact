@@ -21,15 +21,31 @@
   }
 }
 
-.Clock{
-  top: 5%;
-  left: 5%;
+
+.Left{
+  width: 30%;
   position: absolute;
+  left: 0;
+  margin: 1% 1%;
 }
 
-.Weather{
+.Clock{
+  margin: 2.5% 5%;
+}
+
+/* .Clock, .Date{
+  height: 40vh;
+} */
+
+.Center{
+  width: 40%;
+}
+
+
+.Right{
+  width: 30%;
   position: absolute;
-  top: 0%;
-  right: 8%;
+  right: 0;
+  margin: 1% 1%;
 }
 

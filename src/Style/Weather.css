@@ -1,0 +1,11 @@
+.weather-container{
+    width: 90%;
+    padding: 2.5% 2.5%;
+    margin: 0;
+    background-color: #d96a6a;
+    border-radius: 5%;
+    border: 5px solid black;
+}
+.temperature{
+    text-align: left;
+}

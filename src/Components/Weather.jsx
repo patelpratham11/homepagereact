@@ -33,16 +33,16 @@ const Weather = (props) => {
         setImageVal(Normal);
       }
     }
-  // useEffect(() => {
-  //   fetch("https://api.openweathermap.org/data/2.5/weather?lat=40.4406&lon=-79.9959&appid=23f7b63fd1c1d1a3b0dc5b97fc5c66af&units=imperial")
-  //     .then(response => response.json())
-  //     .then(json => {
-  //       setData(json);
-  //       imgSelection(json);
-  //       console.log(json)
-  //     })
-  //     .catch(error => console.error(error));
-  // }, []);
+  useEffect(() => {
+    fetch("https://api.openweathermap.org/data/2.5/weather?lat=40.4406&lon=-79.9959&appid=23f7b63fd1c1d1a3b0dc5b97fc5c66af&units=imperial")
+      .then(response => response.json())
+      .then(json => {
+        setData(json);
+        imgSelection(json);
+        console.log(json)
+      })
+      .catch(error => console.error(error));
+  }, []);
 
   if(data != null){
     return (
