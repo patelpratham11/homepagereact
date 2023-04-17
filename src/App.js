@@ -4,6 +4,7 @@ import Clock from "./Components/Clock";
 import Name from "./Components/Name";
 import Date from "./Components/Date"
 import Links from "./Components/Links";
+import Search from "./Components/Search";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </div>
         <div className="Date">
             <Date></Date>
+        </div>
+        <div className="Search">
+            <Search></Search>
         </div>
         
       </div>
